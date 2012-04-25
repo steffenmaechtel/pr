@@ -17,7 +17,7 @@ function pr($value, $varDump = false)
         $message = var_dump($value);
     }
 
-    echo '<pre style="margin: 10px; padding: 10px; border: 1px solid red;">' . $message . '</pre>';
+    echo '<pre style="margin: 10px; padding: 10px; border: 1px solid blue;">' . $message . '</pre>';
 
     if (count(ob_list_handlers()))
     {
